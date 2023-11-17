@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Server Revisao</title>
+</head>
+<body>
+   <main id="mainContent">
+      <h1>Envie seus dados para a base!</h1>
+      <form action="/obg" method="post">
+         <label for="nome">Nome:</label>
+         <input type="text" name="nome" id="nome">
+         <label for="local">Cidade:</label>
+         <input type="text" name="local" id="local">
+         <label for="email">Email:</label>
+         <input type="email" name="email" id="email">
+         <label for="tel">Telefone:</label>
+         <input type="tel" name="tel" id="tel">
+         <button type="submit" class="btn-submit">Enviar</button>
+      </form>
+      <section id="obrigado"></section>
+   </main>
+   <script src="./assets/js/bundle.js"></script>
+</body>
+</html>

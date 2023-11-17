@@ -1,0 +1,15 @@
+body {
+   background: rgb(71, 116, 84);
+}
+
+#mainContent {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 90%;
+   height: 38vh;
+   margin: 30px auto;
+   background-color: white;
+   border-radius: 15px;
+}
