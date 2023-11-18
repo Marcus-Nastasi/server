@@ -22,7 +22,7 @@ app.use(express.static(path.resolve(__dirname, 'public')));
 app.use(routes);
 
 app.on('ok', () => {
-   app.listen(3000, () => {
+   app.listen(8000, () => {
       console.log("http://localhost:3000/");
    });
 });
